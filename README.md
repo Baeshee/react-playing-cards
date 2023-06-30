@@ -1,4 +1,4 @@
-![Image of the application](https://github.com/Baeshee/Standwandelingen_Amsterdam-Leaflet/blob/master/preview_image.png)
+![Image of the application](https://github.com/Baeshee/react-playing-cards/blob/master/preview_image.png)
 
 # Playing Cards (React)
 
