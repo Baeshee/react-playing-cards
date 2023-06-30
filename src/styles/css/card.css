@@ -1,0 +1,94 @@
+.card {
+  width: 20rem;
+  height: 27rem;
+  background-color: white;
+  position: relative;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 0 0 1rem black;
+          box-shadow: 0 0 1rem black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card__upper {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  left: 1rem;
+  top: 1rem;
+}
+
+.card__middle {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card__middle__before, .card__middle__after {
+  font-size: 1.4rem;
+  position: absolute;
+}
+
+.card__middle__before {
+  right: -2rem;
+  top: -2.5rem;
+}
+
+.card__middle__after {
+  left: -2rem;
+  bottom: -2.5rem;
+}
+
+.card__bottom {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  right: 1rem;
+  bottom: 1rem;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.text {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+/*# sourceMappingURL=card.css.map */
